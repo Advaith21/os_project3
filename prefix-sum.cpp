@@ -111,7 +111,7 @@ int main( int argc, char** argv )
    // Initialize elements of the input array (data[0])
    for(int j = 0; j < sizeOfInput; ++j)
    {
-      data[0][j] = 1;
+      data[0][j] = j;
    }
  
    // Create a barrier object to be used by worker threads to synchronize movement from one phase to the next
